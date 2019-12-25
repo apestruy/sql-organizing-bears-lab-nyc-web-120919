@@ -18,7 +18,7 @@ end
 
 def select_youngest_bear_and_returns_name_and_age
   "SELECT bears.name, bears.age FROM bears
-  ORDER BY age LIMIT 1"
+  ORDER BY age LIMIT 1;"
 end
 
 def selects_most_prominent_color_and_returns_with_count
